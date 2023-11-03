@@ -29,15 +29,18 @@ console.log(data[0].images.downsized_large.url);
     if(searchQuery) {
     fetchData(searchQuery?.toString());}
   }
+  
 
   return (
     <>
-      <h1>gif searcher
+      <h1>GIF SEARCHER
        </h1>
        <form onSubmit={handleSubmit}>
+        <div className="inputAndClear">
 <input type="search" name='gif-search' />
 <button type="reset">Clear</button>
-
+</div>
+<button type="submit" className="searchButton">SEARCH</button>
 
        </form>
        {gifUrl && <img src={gifUrl} />}

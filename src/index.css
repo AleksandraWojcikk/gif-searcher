@@ -19,7 +19,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #c7c4c4;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -29,4 +29,15 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.inputAndClear {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.searchButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
