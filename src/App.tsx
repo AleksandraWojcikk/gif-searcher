@@ -35,6 +35,7 @@ console.log(data[0].images.downsized_large.url);
     <>
       <h1>GIF SEARCHER
        </h1>
+       <p>Try to find your favourite gif by using this perfect Gif Searcher and have fun!</p>
        <form onSubmit={handleSubmit}>
         <div className="inputAndClear">
 <input type="search" name='gif-search' />
