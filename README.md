@@ -28,5 +28,5 @@ If you are developing a production application, we recommend updating the config
 
 
 ## The app you can see there:
-https://gif-searcher-by-ola.netlify.app/ 
+https://gif-searcher-by-ola.netlify.app/
 
